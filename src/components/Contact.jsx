@@ -25,10 +25,26 @@ export default function Contact() {
               <a href="mailto:mohithpandiri2222@gmail.com" className="inline-flex items-center gap-2 text-sky-300 hover:text-sky-200 transition-colors">
                 <Mail className="w-5 h-5" /> mohithpandiri2222@gmail.com
               </a>
-              <div className="flex items-center gap-4">
-                <a href="#" aria-label="GitHub" className="text-white/80 hover:text-white"><Github /></a>
-                <a href="#" aria-label="LinkedIn" className="text-white/80 hover:text-white"><Linkedin /></a>
-              </div>
+            </div>
+            <div className="mt-4 flex items-center gap-3">
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/5 px-3 py-2 text-sm text-white/90 hover:text-white hover:border-white/30 hover:bg-white/10 transition-colors"
+                aria-label="GitHub"
+              >
+                <Github className="h-4 w-4" /> GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/5 px-3 py-2 text-sm text-white/90 hover:text-white hover:border-white/30 hover:bg-white/10 transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-4 w-4" /> LinkedIn
+              </a>
             </div>
           </div>
 
