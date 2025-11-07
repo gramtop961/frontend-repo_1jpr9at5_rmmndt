@@ -16,6 +16,11 @@ const skills = [
     color: 'from-indigo-500 to-violet-500',
     icon: <Code2 className="w-6 h-6" />,
   },
+  {
+    name: 'Vibe Coding',
+    color: 'from-fuchsia-500 to-purple-500',
+    icon: <Code2 className="w-6 h-6" />,
+  },
 ];
 
 export default function Skills() {
